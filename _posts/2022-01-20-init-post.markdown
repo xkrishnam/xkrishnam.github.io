@@ -4,3 +4,5 @@ title:  "Using the ADNS-5090 Optical Mouse Sensor for Motion Tracking and Image 
 date:   2022-01-20 16:34:41 +0530
 categories: Blog
 ---
+
+<script src="https://gist.github.com/xkrishnam/d50cd48ebcf07427d0475a32ae922113.js"></script>
