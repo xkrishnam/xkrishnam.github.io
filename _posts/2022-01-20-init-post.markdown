@@ -1,8 +1,6 @@
 ---
 layout: post
-title:  "Init Post"
+title:  "Using the ADNS-5090 Optical Mouse Sensor for Motion Tracking and Image Capture"
 date:   2022-01-20 16:34:41 +0530
-categories: intro
+categories: Blog
 ---
-Thanks to github page for free and easy hosting for this and jekyll for 
-free and easy tools to develop site.
