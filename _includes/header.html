@@ -1,0 +1,24 @@
+<header style="display: flex; align-items: center; justify-content: space-between; padding: 1rem 2rem;">
+  
+    <!-- Logo Section -->
+    <div>
+      <a href="/">
+        {% if site.logo %}
+          <img src="{{ site.logo }}" alt="{{ site.title }}" style="height: 60px; width: auto;">
+        {% else %}
+          <h1>{{ site.title }}</h1>
+        {% endif %}
+      </a>
+    </div>
+  
+    <!-- Navigation Links Section -->
+    <nav>
+      <ul style="list-style: none; margin: 0; padding: 0; display: flex; gap: 1.5rem;">
+        {% for link in site.links %}
+          <li><a href="{{ link.url }}" style="text-decoration: none; color: inherit;">{{ link.name }}</a></li>
+        {% endfor %}
+      </ul>
+    </nav>
+  
+  </header>
+  
